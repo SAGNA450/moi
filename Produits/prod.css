@@ -1,0 +1,152 @@
+:root {
+  --body-color: #2c2d2a;
+  --savanna-bg: #f9f6f1;
+  --beach-bg: #e7dfcf;
+  --glacier-bg: #137d13;
+  --coral-bg: #db392b;
+  --arrow-fill: #8bc4f6;
+  --body-font: "Montserrat", sans-serif;
+  --italic-font: "EB Garamond", serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Raleway;
+  margin: 0px;
+}
+body {
+  background-color: var(--arrow-fill);
+  color: var(--savanna-bg);
+}
+
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexAround {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flexBetween {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flexColumnCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flexColumnAround {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.flexColumnBetween {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.decorationNone {
+  text-decoration: none;
+}
+.bordureNone {
+  border: none;
+}
+.textGras {
+  font-weight: bold;
+}
+
+/* NAV */
+.sizeNav {
+  height: auto;
+}
+.sizeLiens {
+  width: 100%;
+}
+.sizeLienMobile {
+  border-top: 2px solid transparent;
+}
+.sizeLienMobile:hover {
+  border-bottom: 0px;
+  border-top: 5px solid var(--glacier-bg);
+}
+.sizeLienMobile:hover .colorLien2 {
+  color: var(--glacier-bg);
+}
+.sizeLien12 {
+  margin-left: 6px;
+}
+.sizeLien {
+  width: 140px;
+  height: 70px;
+}
+.colorLien2 {
+  color: white;
+}
+.bordureNav23 {
+  border-top: 2px solid transparent;
+}
+.marglogo {
+  margin-bottom: 7px;
+}
+
+.img-heading > img {
+  width: 100%;
+  height: 55vh;
+  object-fit: cover;
+}
+.img2-heading > img {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+/* Hebergement */
+.sizeHebergement {
+  width: 68%;
+  height: 650px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.sizePopulaires {
+  width: 30%;
+  height: 650px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.blocHebergement {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+}
+.bloc1 {
+  margin-bottom: 12px;
+}
+.bloc2 {
+  margin-top: 12px;
+}
+.cubeHerbergement {
+  width: 30%;
+  height: 220px;
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px #fffdfd;
+}
+.cubeHerbergement:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+.cubeDetailsHebergement {
+  width: 85%;
+}
+.imageHebergements {
+  width: 100%;
+  height: 150px;
+  border-radius: 15px 15px 0 0;
+  object-fit: cover;
+  object-position: center;
+}
